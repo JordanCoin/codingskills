@@ -1,0 +1,31 @@
+{
+  "name": "codingskills",
+  "owner": {
+    "name": "Jordan Coin Jackson",
+    "url": "https://github.com/JordanCoin"
+  },
+  "metadata": {
+    "description": "Coding principles for AI agents — KISS, DRY, SOLID, YAGNI, separation of concerns, law of demeter, and more",
+    "version": "1.0.0",
+    "repository": "https://github.com/JordanCoin/codingskills"
+  },
+  "plugins": [
+    {
+      "name": "coding-skills",
+      "description": "9 foundational coding principle skills for AI agents: KISS, DRY, SOLID, YAGNI, Separation of Concerns, Law of Demeter, Boy Scout Rule, Convention over Configuration, plus stack detection. Language-agnostic principles that help agents ship production-quality code.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/kiss",
+        "./skills/dry",
+        "./skills/yagni",
+        "./skills/solid",
+        "./skills/separation-of-concerns",
+        "./skills/law-of-demeter",
+        "./skills/boy-scout-rule",
+        "./skills/convention-over-configuration",
+        "./skills/detect-stack"
+      ]
+    }
+  ]
+}
